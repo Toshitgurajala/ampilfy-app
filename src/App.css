@@ -1,5 +1,8 @@
+
 .App {
   text-align: center;
+  background-color:white;
+ 
 }
 
 .App-logo {
@@ -27,6 +30,19 @@
 .App-link {
   color: #61dafb;
 }
+#hello{
+  text-transform: uppercase;
+}
+#signout
+{
+ color:purple;   
+ width:100%;
+}
+#signout:hover
+{
+  background-color: purple;
+  color:white;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +51,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+th
+{
+ 
+  width:50%;
+  
+}
+
+#table{
+  width: 200%;
+  
+  
+}
+td{
+  display:inline-block;
+  width: 50%;
+  
+  
+  
+}
+table {
+  table-layout:fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+
+
+th,
+td {
+ 
+  padding: 10px;
+}
+tr{
+  border-top: 2px solid black;
+}
+td:hover{
+background-color: grey;
+
 }
